@@ -1,37 +1,76 @@
-## Welcome to GitHub Pages
+# 개발자를 개발자답게
 
-You can use the [editor on GitHub](https://github.com/soonee/resume/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+그간 중소기업이나 스타트업에서 개발자로서 일해왔습니다.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+개발과 운영을 함께 하며(DevOps) 커리어를 쌓았습니다.
 
-### Markdown
+효율적이고 우아하게 일하는것을 추구합니다.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+개발자를 개발자답게 개발하고 싶습니다.
 
-```markdown
-Syntax highlighted code block
+- - -
 
-# Header 1
-## Header 2
-### Header 3
+## 이지스엔터프라이즈
+### API 개발 및 인프라 구축, 2023.06 -
+- 전자결재 및 게시판 기능 알림 및 삭제와 관련된 CRUD API 개발
+- AWS 인프라 구축
+- 배포 파이프 라인 구축
 
-- Bulleted
-- List
+## 브랜디
+### 이커머스 플랫폼 개발, 2022.11 - 2023.06
+- 주문 및 결제와 클레임 시스템 운영 및 개발
+- PG 결제시 callback URL 규격 이슈로 인한 caching 처리로 해결
+- 커머스와 관련된 레거시 API 서버 고도화
 
-1. Numbered
-2. List
+## 집닥
+### 인테리어 플랫폼 개발 및 운영, 2022.04 - 2022.10
+- 백오피스 레거시 시스템 고도화 (spring mvc, jsp로 구성된 monolithic 애플리케이션 문제 인식)
+- front-end(vue.js)와 back-end(api)로 프로젝트 분리
+- 서비스 메쉬에 따른 back-end MSA 구축
+  - api gateway 구성 (CQRS 패턴 도입)
+  - 서비스 디스커버리 구성
+  - configuration server 구성
+- 배포 파이프라인 1단계 구축
+- 비용 절감을 위해 k8s로 전환 구축 검토
 
-**Bold** and _Italic_ and `Code` text
+## 와이더블유모바일
+### 모빌리티 플랫폼 개발, 2020.01 - 2021.10
+- 대리운전 및 탁송 서비스 개발
+- 서버 관점에서 볼때 대리운전과 탁송 서비스 생태계는 여러 클라이언트가 존재함
+- 확장성, 유지보수를 위한 마이크로 서비스 아키텍처를 지향하며 서비스 설계
+- 주문 CRUD, 배차, 정산 기능 고도화
+- 외부시스템에서 주문을 CRUD할 수 있는 API 개발과 이에 따른 배차, 정산 기능 추가 개발
+- API를 사용하지 못하는 업체를 위한 주문 웹페이지 개발
 
-[Link](url) and ![Image](src)
-```
+## 알앤비소프트
+### 삼성SDS 챗봇 서비스 개발, 2019.10 - 2020.01
+- 챗봇 화면과 API 서버를 개발
+- websocket을 이용한 챗봇 클라이언트 화면 개발
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
 
-### Jekyll Themes
+### KT 챗봇 서비스 개발, 2018.10 - 2019.09
+- 검색엔진(Lucene기반 솔루션 solr)을 이용한 챗봇 서비스 개발
+- 챗봇빌더(관리자용), 챗봇화면(사용자용), 각각 API 서버 개발
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/soonee/resume/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+## 와이엘랜드
+### 광고플랫폼 개발, 2018.04 - 2018.10
+- 모바일 API 개발
+- 백오피스 개발
+- 광고 과금의 실시간 정산 개발을 위해 kafka로 데이터 파이프라인 구축
 
-### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+### SNS 서비스 개발, 2017.10 - 2018.03
+- 모바일 API 개발
+- 레거시 고도화 작업
+
+## 바자울정보기술
+### 산학협력단 연구행정시스템 개발 2016.02 - 2017.04
+- 대학 연구비 관리시스템(행정, 회계, 인사 등) 개발
+- 연구비관리지침에 따른 도메인 데이터 모델링 및 비지니스 로직 구축
+- 비즈니스 로직을 테이블 정규화 및 쿼리 최적화와 프로시저, 트리거 등등 데이터베이스 기반 기술(PL/SQL)로 개발
+
+## 셀리지온
+### WiFi를 이용한 측위 알고리즘 및 데이터베이스 개발, 2013.01 - 2015.12
+- Unix Like(POSIX)를 기반으로 데몬프로세스 및 미들웨어 개발
+- 대용량 데이터 처리를 위한 파일시스템과 멀티프로세스를 이용한 IPC통신과 멀티스레드로 시스템 설계 및 개발
+
